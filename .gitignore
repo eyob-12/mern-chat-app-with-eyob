@@ -1,0 +1,38 @@
+# Node modules
+node_modules/
+
+# Build files
+/build
+/build-client
+/build-server
+
+# Environment variables
+.env
+
+# Dependency directories
+bower_components/
+jspm_packages/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Editor directories and files
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Dependency lock files
+package-lock.json
+yarn.lock
+
+# Mac OS
+.DS_Store
+
+# Windows
+Thumbs.db
