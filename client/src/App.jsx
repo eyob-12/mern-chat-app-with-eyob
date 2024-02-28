@@ -1,12 +1,10 @@
-import Routes from "./Routes";
-//import Register from "./register";
 import axios from "axios";
-import { UserContextProvider } from "./UserContext";
-
+import {UserContextProvider} from "./UserContext";
+import Routes from "./Routes";
 
 function App() {
-  axios.defaults.baseURL = 'http://localhost:5050';
-  axios.defaults.withCredentials = true;// set cookies for our api
+  axios.defaults.baseURL = 'http://localhost:4040';
+  axios.defaults.withCredentials = true;
   return (
     <UserContextProvider>
       <Routes />
